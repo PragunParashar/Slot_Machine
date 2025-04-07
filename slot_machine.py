@@ -15,6 +15,8 @@ def roll():
     if result[0] == result[1] == result[2]:
         print('JACKPOT!!!')
         balance+=3*betted_amt
+    else:
+        print('Oops! Try again.')
 def bet():
     global betted_amt
     betted_amt= int(input('Enter your bet: '))
